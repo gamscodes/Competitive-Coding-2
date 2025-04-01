@@ -1,9 +1,9 @@
 # TC: O(n) We iterate through the list once, and dictionary lookups are O(1) on average
-# SC: O(n) We store at most n elements in the hash_map.
-# Use a hash map to store numbers and their indices.
-# For each number, compute the remainder (target - nums[i]).
-# If the remainder is found in the hash map, return the two indices.
-# Otherwise, store the current number and its index in the hash map.
+# SC: O(n) We store at most n elements in the hash_map
+# Use a hash map to store numbers and their indices
+# For each number, compute the remainder (target - nums[i])
+# If the remainder is found in the hash map, return the two indices
+# Otherwise, store the current number and its index in the hash map
 from typing import List
 
 

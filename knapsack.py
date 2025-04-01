@@ -1,3 +1,10 @@
+# Approach: Use dynamic programming to solve the 0/1 Knapsack problem
+# Create a 2D DP table where dp[i][j] represents the maximum value
+# achievable with 'i' items and a knapsack capacity of 'j'
+# For each item, we decide whether to include it or exclude it
+# TC: O(n * W), SC: O(n * W) where n is the number of items and W is the capacity
+
+
 class Solution:
     def knapsack(self, W, val, wt):
         n = len(val)  # Number of items
